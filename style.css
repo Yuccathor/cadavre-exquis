@@ -51,6 +51,8 @@
 .rules-ps {
     margin-top: 1rem;
     opacity: .8;
+}
+.rules-ps > span {
     font-style: italic;
 }
 
@@ -62,13 +64,13 @@
 /*/////////// Yucca ///////////*/
 /* //////////////////////////// */
 
-.container-circle {
+.circle-container {
     position: relative;
     display: grid;
     background-color: aqua;
 }
 
-.item {
+.circle-item {
     border-radius: 100%;
     position: absolute;
     left: 50%;
@@ -76,84 +78,84 @@
     transform: translate(-50%, -50%);
 }
 
-.item-1 {
+.circle-item-1 {
     width: 180px;
     height: 180px;
     background-color: pink;
     z-index: 100;
 }
 
-.item-2 {
+.circle-item-2 {
     width: 200px;
     height: 200px;
     background-color: rgb(236, 181, 190);
     z-index: 99;
 }
 
-.item-3 {
+.circle-item-3 {
     width: 220px;
     height: 220px;
     background-color: rgb(212, 139, 151);
     z-index: 98;
 }
 
-.item-4 {
+.circle-item-4 {
     width: 240px;
     height: 240px;
     background-color: rgb(211, 192, 255);
     z-index: 97;
 }
 
-.item-5 {
+.circle-item-5 {
     width: 320px;
     height: 320px;
     background-color: aqua;
     z-index: 96;
 }
 
-.item-6 {
+.circle-item-6 {
     width: 340px;
     height: 340px;
     background-color: pink;
     z-index: 95;
 }
 
-.item-7 {
+.circle-item-7 {
     width: 380px;
     height: 380px;
     background-color: rgb(238, 125, 144);
     z-index: 94;
 }
 
-.item-8 {
+.circle-item-8 {
     width: 440px;
     height: 440px;
     background-color: rgb(34, 240, 240);
     z-index: 93;
 }
 
-.item-9 {
+.circle-item-9 {
     width: 480px;
     height: 480px;
     background-color: rgb(255, 217, 223);
     z-index: 92;
 }
 
-.item-10 {
+.circle-item-10 {
     width: 660px;
     height: 500px;
     background-color: pink;
     z-index: 91;
 }
 
-.item-11 {
+.circle-item-11 {
     width: 600px;
     height: 600px;
     background-color: rgb(13, 223, 238);
     z-index: 90;
 }
 
-.item-12 {
+.circle-item-12 {
     width: 800px;
     height: 400px;
     background-color: rgb(252, 223, 228);
@@ -163,35 +165,35 @@
     /* position: fixed; */
 }
 
-.item-13 {
+.circle-item-13 {
     width: 560px;
     height: 500px;
     background-color: pink;
     z-index: 88;
 }
 
-.item-14 {
+.circle-item-14 {
     width: 560px;
     height: 500px;
     background-color: pink;
     z-index: 87;
 }
 
-.item-15 {
+.circle-item-15 {
     width: 560px;
     height: 500px;
     background-color: pink;
     z-index: 86;
 }
 
-.item-16 {
+.circle-item-16 {
     width: 560px;
     height: 500px;
     background-color: pink;
     z-index: 85;
 }
 
-.item-17 {
+.circle-item-17 {
     width: 560px;
     height: 500px;
     background-color: pink;
